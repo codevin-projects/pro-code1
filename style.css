@@ -6,19 +6,9 @@
     box-sizing : border-box;
     font-family : 'Raleway', Helvetica;
 }
-/*
 body
 {
-    background : lightblue;
-    display : flex;
-    justify-content : center;
-    align-items : center;
-    min-height : 100vh;
-}
-*/
-body
-{
-    background: url(https://dl.dropbox.com/s/mpmu0gjtxv2x3fs/Webp.net-resizeimage%20%281%29.jpg?raw=1) no-repeat center center fixed; 
+    background: url(https://source.unsplash.com/E8Ufcyxz514/2400x1823) no-repeat center center fixed; 
     display : flex;
     justify-content : center;
     align-items : center;
@@ -35,7 +25,7 @@ body
     margin: 50px;
     display: grid;
     grid-template-columns : 1fr 2fr;
-    box-shadow: 0 35px 35px rgba(0,0,0,0.1);
+    box-shadow: 0 35px 35px rgba(0,0,0,0.4);
 }
 */
 .glass
@@ -44,9 +34,9 @@ body
     min-height: 250px;
     width: 100%;
     max-width: 100%;
-    color: white;
+    color: black;
     display: grid;
-    grid-template-columns : 1fr 2fr;
+    grid-template-columns: 1fr 2fr;
     background-color: rgba(255, 255, 255, 0.06);
     -webkit-backdrop-filter: blur(20px);
             backdrop-filter: blur(20px);
@@ -59,8 +49,8 @@ body
     padding: 20px;
     border-radius: 20px;
     border: 1px solid #00EDFF;
-    /*-webkit-box-shadow: 20px 20px 22px rgba(0,0,0,0.2);
-            box-shadow: 20px 20px 22px rgba(0,0,0,0.2);*/
+    -webkit-box-shadow: 20px 20px 22px rgba(0,0,0,0.4);
+            box-shadow: 20px 20px 22px rgba(0,0,0,0.4);
     font-family: "Raleway", Helvetica;
 }
 
@@ -92,7 +82,7 @@ body
     border-bottom : 1px solid #fff;
 }
 
-/*Left side of the resume*/
+/*Left side of the glass container*/
 .container .left_Side
 {
     position : relative;
