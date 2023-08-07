@@ -14,20 +14,6 @@ body
     align-items : center;
     background-size: cover;
 }
-/*
-.container
-{
-    position: relative;
-    width: 100%;
-    max-width: 100%;
-    min-height : 150px;
-    background : #fff; 
-    margin: 50px;
-    display: grid;
-    grid-template-columns : 1fr 2fr;
-    box-shadow: 0 35px 35px rgba(0,0,0,0.4);
-}
-*/
 .glass
 {
     position: relative;
@@ -227,7 +213,7 @@ body
     padding-left: 10px;
     padding-right: 10px;
 }
-.reflink
+.cileft .reflink, .ciright .reflink
 {
     text-decoration: none;
     color: black;
@@ -238,11 +224,13 @@ body
     float: right;
     padding-right: 10px;
 }
-.ciright .reflink
+/*
+.cileft .reflink, .ciright .reflink
 {
     text-decoration: none;
-    color: white;
+    color: black;
 }
+*/
 .drn
 {
     position: relative;
