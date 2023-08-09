@@ -145,8 +145,7 @@ body
     border-radius: 100px;
 }
 
-
-
+/*Right side container section*/
 .container .right_Side
 {
     position : relative;
@@ -213,7 +212,7 @@ body
     padding-left: 10px;
     padding-right: 10px;
 }
-.cileft .reflink, .ciright .reflink
+.cileft .reflink, .ciright .reflink, .proj .reflink
 {
     text-decoration: none;
     color: black;
@@ -236,6 +235,13 @@ body
     padding-bottom: 27px;
     border-bottom : 1px solid #000;
 }
+    /*
+.reflink
+{
+    text-decoration: none;
+    color: black;
+}
+    */
 .drn
 {
     position: relative;
