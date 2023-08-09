@@ -224,13 +224,18 @@ body
     float: right;
     padding-right: 10px;
 }
-/*
-.cileft .reflink, .ciright .reflink
+.proj
 {
-    text-decoration: none;
-    color: black;
+    position: relative;
+    font-family: "Raleway", Helvetica;
+    width: 100%;
+    line-height: 28px;
+    padding-top: 40px;
+    padding-left: 30px;
+    font-family: "Raleway", Helvetica;
+    padding-bottom: 27px;
+    border-bottom : 1px solid #000;
 }
-*/
 .drn
 {
     position: relative;
